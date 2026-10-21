@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "tool": "win-port-doctor",
+  "collectedAtUtc": "2026-01-10T12:00:00Z",
+  "platform": "Synthetic Windows fixture",
+  "evidence": {
+    "port": 8080,
+    "listeners": [
+      {
+        "protocol": "TCP",
+        "address": "127.0.0.1",
+        "state": "Listen",
+        "pid": 4820,
+        "process": {
+          "name": "ExampleServer.exe",
+          "path": "C:\\Example\\ExampleServer.exe"
+        },
+        "services": [
+          "ExampleServer"
+        ]
+      }
+    ],
+    "truncated": false
+  },
+  "issues": []
+}
